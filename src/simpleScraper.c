@@ -24,4 +24,8 @@ int main(int argc, char *argv){
     return 0;
 }
 
-//gcc -o simpleScraper src/simpleScraper.c -I./include -L./lib -lcurl
+//gcc -v -o my_program.exe  -I"./include" -L"./lib" ./src/simpleScraper.c -lcurl
+
+
+
+
