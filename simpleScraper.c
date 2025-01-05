@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <curl/curl.h>
 
+// I HATE USING EXTERNAL LIBRARIES
+
 int main(int argc, char *argv){
     CURL *curl;
     CURLcode result;
